@@ -14,7 +14,7 @@ while no_of_guesses>=1:
         print("Your number is too high!")
         print(f'you have {no_of_guesses} guesses left')
     else :
-        print(f"You have guessed the right number in {no_of_guesses} guesses\nYou Won!")
+        print(f"You have guessed the right number in {9-no_of_guesses} guesses\nYou Won!")
         break
 
     if no_of_guesses == 0:
