@@ -26,6 +26,5 @@ total_area=area1+area2+area3
 
 if area==total_area:
     print("Point P is inside the Triangle")
-
 else:
     print("Point P is outside the Triangle")
