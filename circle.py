@@ -8,7 +8,14 @@ r=int(input("Enter radius of Smaller circle\n"))
 
 d=((x1-x2)**2+(y1-y2)**2)**0.5
 
-if R>d:
-    print("Smaller Circle is inside the bigger Circle")
+if d+r<R:
+    print("Smaller Circle is completely inside the bigger Circle without touching the circumference")
+
+elif d+r==R:
+    print("Smaller Circle is completely inside the bigger Circle and touching the circumference")
+
+elif d+r>R:
+    print("Smaller Circle is outside the bigger Circle")
+
 else :
     print("Smaller circle is outside the bigger circle")
